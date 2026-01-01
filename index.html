@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pokémon Counter Tool</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1 id="home" onclick="goHome()">Pokémon Counter & Type Analyzer</h1>
+
+  <input list="pokemon-list" id="pokemonInput" placeholder="Type a Pokémon..." />
+  <datalist id="pokemon-list"></datalist>
+  <button onclick="analyzePokemon()">Analyze</button>
+
+  <div id="results">
+    <h2 id="pokeName"></h2>
+    <img id="sprite" />
+
+    <p><strong>Types:</strong> <span id="types"></span></p>
+
+    <h3>Damage Taken</h3>
+    <ul id="damage"></ul>
+
+    <h3>PvP Meta Counters</h3>
+    <ul id="counters"></ul>
+
+    <h3>Suggested Super-Effective Moves</h3>
+    <ul id="moves"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+body {
+  background: radial-gradient(circle at top, #ffcb05, #3b4cca);
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  color: #1f2937;
+  text-align: center;
+  padding: 40px;
+}
+
+h1 {
+  cursor: pointer;
+  color: #2a75bb;
+  text-shadow: 2px 2px #ffcb05;
+}
+
+#results {
+  background: rgba(255, 255, 255, 0.92);
+  max-width: 650px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+}
+
+input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #2a75bb;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  background: #ffcb05;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+button:hover {
+  background: #f5b700;
+}
+
+img {
+  width: 160px;
+  image-rendering: pixelated;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #e5e7eb;
+  margin: 5px 0;
+  padding: 6px;
+  border-radius: 6px;
+}
